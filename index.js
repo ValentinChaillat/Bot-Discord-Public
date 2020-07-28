@@ -4,12 +4,12 @@ const ytdl = require("ytdl-core");
 
 const bot = new Discord.Client();
 
-bot.login("NzAyNTk4NzI1MzM5NDQ3Mzc4.XqCZwA.30jYfz3PcQAtZClag9dgyUJngys");
+bot.login("NzAyNTk4NzI1MzMzc4.XqCZwA.30jYfz3PcQAtZClag9dgyUJngys");
 
 //------------------------changement de l'activité du bot---------------------------------------
 bot.on("ready", function () {
   bot.user.setActivity("du piano", { type: "PLAYING" });
-  const val = bot.users.get("191206465955037184");
+  const val = bot.users.get("19120645037184");
   val.user.setActivity(" du piano", { type: "PLAYING" });
 });
 
